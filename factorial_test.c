@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int i;int n;
-    int f=1;
+    int i;int num;
+    int fact=1;
     printf("enter the no for factorial:");
-    scanf("%d",&n);
-    for(i=n;i>0;i--)
+    scanf("%d",&num);
+    for(i=num;i>0;i--)
     {
-        f=f*i;
+        fact=fact*i;
     }
-    printf("\n the %d! is = %d ",n,f);
+    printf("\n the %d! is = %d ",num,fact);
     return 0;
 }
